@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Buy groceries",
+    "description": "Eggs, milk, bread",
+    "status": "todo",
+    "createdAt": "2025-09-13T15:18:29.338Z",
+    "updatedAt": "2025-09-13T15:18:29.338Z"
+  },
+  {
+    "id": 2,
+    "name": "Học Node.js",
+    "description": "",
+    "status": "todo",
+    "createdAt": "2025-09-13T15:20:57.002Z",
+    "updatedAt": "2025-09-13T15:20:57.002Z"
+  }
+]

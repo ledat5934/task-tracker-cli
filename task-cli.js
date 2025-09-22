@@ -17,7 +17,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const DATA_FILE = path.join(__dirname, 'task.json'); // file lưu dữ liệu
+// Sử dụng biến môi trường DATA_DIR hoặc mặc định là thư mục hiện tại
+const DATA_DIR = process.env.DATA_DIR || __dirname;
+const DATA_FILE = path.join(DATA_DIR, 'task.json'); // file lưu dữ liệu
 
 // ---------- Utilities for read/write ----------
 
